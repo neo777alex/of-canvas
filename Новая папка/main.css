@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 1.3em 'PT Sans';
+	background: url("images/tek.jpg");
+}
+
+#main {
+	background: #fff;
+	margin: 50px auto;
+	width: 300px;
+}
+#main ul li {
+	list-style: none;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#main ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+	padding: 10px;
+}
+#main ul li a:hover {
+	background: #eaeaea;
+}
+
+#main > ul > li > ul {
+	display: none;
+}

@@ -1,0 +1,275 @@
+.wrapper {
+	max-width:1250px;
+	margin:0 auto;
+	overflow:hidden;
+	
+	margin-top:23px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.header {
+	overflow:hidden;
+	max-width:960px;
+	margin:0 auto;
+	margin-bottom:12px;
+	padding-top:10px;
+}
+.header__logo {
+	float:left;
+}
+.img-logo {
+	width:100%;
+}
+.logo {
+	width:178px;
+	float:left;
+}
+.logo__logo-a  {
+	display:inline-block;
+}
+.bg-nav {
+	width:42%;
+	overflow:hidden;
+	float:right;
+	padding-top: 15px;
+	position:absolute;
+	z-index:3;
+	right:194px;
+}
+
+.nav {
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+	text-align: justify;
+	font-size: 0.001px;
+	vertical-align:top;
+	width:100%;
+}
+.nav:after {
+	 content: '';
+  display: inline-block;
+  width: 100%;
+}
+.nav .nav__item {
+	 font-size: 16px;
+  display: inline-block;
+  vertical-align:top;
+	width:25%;
+}
+.nav__item a{
+	color:#666666;
+	display:block;
+}
+.bg-nav .nav .nav__item .submenu  a{
+	display:inline-block;
+}
+.bg-nav>.nav>.nav__item>.submenu  {
+	display: none;
+}
+.bg-nav-2 {
+	width:284px;
+	margin:0 auto;
+}
+.bg-nav-2>.nav>.nav__item>.submenu  {
+	display: none;
+}
+.bg-nav-2>.nav>.nav__item {
+	display:block;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+.cizburger {
+	display:none;
+}
+#nav-toggle {
+	width:40px;
+	float:right;
+	position:;
+	left:-54px;
+	margin-top:7px;
+	cursor:pointer;
+	display:none;
+}
+ .ciz {
+	width:24px;
+	height:4px;
+	display:block;
+	background:#666666;
+	margin-bottom:5px;
+}
+#saydbar {
+	width:100%;
+	background:#f1f1f1;
+	left:-768px;
+	position:absolute;
+	color:;
+	z-index:2;
+	transition: left 0.5s linear;
+	top:60px;
+}
+#saydbar.visible {
+	left:0;
+}
+@media (max-width: 1024px){
+	.bg-nav {
+		width:60%;
+	}
+}
+@media (min-width: 769px){
+	.bg-nav-2 {
+	display:none;
+	}
+}
+@media (max-width: 768px){
+	.bg-nav {
+	display:none;
+}
+@media (max-width: 320px){
+	.logo {
+		text-align:center;
+		width:100%;
+	}
+	#saydbar {
+		top:130px;
+	}
+	#saydbar .nav__item {
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	#nav-toggle {
+	position:absolute;
+	left:132px;
+	top:70px;
+	}
+	#cizburger {
+		display:block;
+		width:100%;
+		overflow:hidden;
+	}
+	.header {
+		margin-bottom:57px;
+	}
+}	
+	.img-logo {
+		width:80%;
+	}
+	#nav-toggle {
+		display:block;
+	}
+}
+#nav-toggle {
+	
+	float: right; 
+	padding-top:5px;
+}
+
+#nav-toggle { cursor: pointer; padding:/*  10px 35px 16px 0px */; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background:#666666;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+.header-slayder {
+	background: url('../images/fon.png')100% no-repeat;
+	max-width:1250px;
+	margin:0 auto;
+	overflow:hidden;
+	height:652px;
+}
+.header-slayder__small {
+	max-width:850px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-bottom:156px;
+}
+.bxslider-bg {
+	width:50%;
+	float: left;
+	margin-left:50px;
+/* position:absolute; */
+}
+.bx-viewport {
+	width:345px;
+	height:px !important;
+	/* padding-bottom:435px; */
+}
+.bx-wrapper img {
+	padding-top:px;
+}
+.slayd-text {
+	float:right;
+	padding-top:px;
+	color:#fff;
+	display:inline-block;
+	vertical-align:middle;
+	
+}
+.batton {
+	overflow:hidden;
+	
+	border-radius:3px;
+	width:172px;
+}
+.batton__a {
+	background:#6699ff;
+	width:172px;
+	padding:5px;
+	display:inline-block;
+}
+.batton__Shape {
+	float:left;
+	
+}
+
+.bx-wrapper .bx-prev {
+	left: -50px;
+	background: url(../images/Layer-4.png) no-repeat;
+}
+
+.bx-wrapper .bx-next {
+	left: 85%;
+	background: url(../images/Layer-4-copy.png) no-repeat;
+}
+.saw-p {
+	margin-top:5px;
+}
+.picture {
+	max-width:900px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.picture__crug1 {
+	width:183px;
+	background:#6699ff;
+	text-align:center;
+	border-radius:50%;
+	height:183px;
+}
